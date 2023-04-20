@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgDetailLeft"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:focusable="true"
+            android:src="@drawable/ic_icon_left" />
+
+        <TextView
+            android:id="@+id/txtDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/avenir_bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgDetailLogo"
+        android:layout_width="@dimen/dimens_275"
+        android:layout_height="@dimen/dimens_275"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimens_50dp"
+        android:layout_marginTop="@dimen/dimens_20dp"
+        android:layout_marginEnd="@dimen/dimens_50dp"
+        android:layout_marginBottom="@dimen/dimens_20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimens_20dp"
+            android:layout_marginEnd="@dimen/dimens_20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_status"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_specy"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_origin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_location"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_episodes"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_bold"
+                android:text="@string/string_created_at_n_in_api"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:id="@+id/txtSpecy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:id="@+id/txtGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:id="@+id/txtOrigin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:id="@+id/txtLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:id="@+id/txtEpisodes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+
+            <TextView
+                android:id="@+id/txtCreatedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_20dp"
+                android:layout_marginBottom="@dimen/dimens_5dp"
+                android:fontFamily="@font/avenir_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_22sp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

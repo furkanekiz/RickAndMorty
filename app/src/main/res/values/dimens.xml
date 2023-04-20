@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_5dp">5dp</dimen>
+    <dimen name="dimens_275">275dp</dimen>
+    <dimen name="dimens_50dp">50dp</dimen>
+    <dimen name="dimens_20dp">20dp</dimen>
+    <dimen name="dimens_22sp">22sp</dimen>
+    <dimen name="dimens_300dp">300dp</dimen>
+    <dimen name="dimens_10dp">10dp</dimen>
+    <dimen name="dimens_3dp">3dp</dimen>
+</resources>

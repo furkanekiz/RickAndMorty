@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:angle="270" android:endColor="@color/white" android:startColor="@color/white" />
+            <stroke android:width="@dimen/dimens_3dp" android:color="@color/yellow_stroke" />
+            <corners android:radius="@dimen/dimens_3dp" />
+            <padding android:bottom="@dimen/dimens_10dp" android:left="@dimen/dimens_10dp" android:right="@dimen/dimens_10dp" android:top="@dimen/dimens_10dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <gradient android:angle="270" android:centerColor="@color/white" android:endColor="@color/grey_end" android:startColor="@color/grey_start" />
+            <stroke android:width="@dimen/dimens_3dp" android:color="@color/blue_stroke" />
+            <corners android:radius="@dimen/dimens_3dp" />
+            <padding android:bottom="@dimen/dimens_10dp" android:left="@dimen/dimens_10dp" android:right="@dimen/dimens_10dp" android:top="@dimen/dimens_10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:angle="270" android:endColor="@color/white" android:startColor="@color/grey_start" />
+            <stroke android:width="@dimen/dimens_3dp" android:color="@color/grey_stroke" />
+            <corners android:radius="@dimen/dimens_3dp" />
+            <padding android:bottom="@dimen/dimens_10dp" android:left="@dimen/dimens_10dp" android:right="@dimen/dimens_10dp" android:top="@dimen/dimens_10dp" />
+        </shape>
+    </item>
+
+</selector>
